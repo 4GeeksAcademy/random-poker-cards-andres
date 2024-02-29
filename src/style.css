@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#carta.♠,
+#carta.♣ {
+  color: black;
+}
+
+#carta.♥,
+#carta.♦ {
+  color: red;
+}
+
+.cuerpo {
+  font-size: 110px;
+}
+
+#cartaBottom {
+  transform: rotate(180deg);
+}
+
+#numero {
+  font-size: 150px;
+}
