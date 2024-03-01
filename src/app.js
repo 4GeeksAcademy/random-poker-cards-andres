@@ -8,7 +8,7 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   function generadorAleatorioPoker() {
-    let cartaTipos = ["♥", "♦", "♠", "♦"];
+    let cartaTipos = ["♥", "♦", "♠", "♣"];
 
     let cartaAleatorios =
       cartaTipos[Math.floor(Math.random() * cartaTipos.length)];
