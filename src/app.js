@@ -7,19 +7,19 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  function generadorAleatorioPoker() {
-    let cartaTipos = ["♥", "♦", "♠", "♣"];
+  function aleatoryPokerGenerator() {
+    let cardTypes = ["♥", "♦", "♠", "♣"];
 
-    let cartaAleatorios =
-      cartaTipos[Math.floor(Math.random() * cartaTipos.length)];
+    let cardAleatory =
+      cardTypes[Math.floor(Math.random() * cardTypes.length)];
 
-    document.getElementById("cartaTop").innerHTML = cartaAleatorios;
-    document.getElementById("cartaBottom").innerHTML = cartaAleatorios;
+    document.getElementById("cardTop").innerHTML = cardAleatory;
+    document.getElementById("cardBottom").innerHTML = cardAleatory;
 
-    let carta = document.getElementById("carta");
-    carta.classList.add(cartaAleatorios);
+    let card = document.getElementById("card");
+    card.classList.add(cardAleatory);
 
-    let numeroCarta = [
+    let cardNumber = [
       "A",
       "J",
       "K",
@@ -35,9 +35,9 @@ window.onload = function() {
       "10"
     ];
 
-    document.getElementById("numero").textContent =
-      numeroCarta[Math.floor(Math.random() * numeroCarta.length)];
+    document.getElementById("number").textContent =
+      cardNumber[Math.floor(Math.random() * cardNumber.length)];
   }
 
-  generadorAleatorioPoker();
+  aleatoryPokerGenerator();
 };

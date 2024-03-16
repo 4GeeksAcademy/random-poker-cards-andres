@@ -1,12 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-#carta.♠,
-#carta.♣ {
+#card.♠,
+#card.♣ {
   color: black;
 }
 
-#carta.♥,
-#carta.♦ {
+#card.♥,
+#card.♦ {
   color: red;
 }
 
@@ -14,10 +14,10 @@
   font-size: 110px;
 }
 
-#cartaBottom {
+#cardBottom {
   transform: rotate(180deg);
 }
 
-#numero {
+#number {
   font-size: 150px;
 }
